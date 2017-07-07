@@ -1,0 +1,33 @@
+{
+  "name": "throttle-decorator",
+  "version": "0.0.0",
+  "description": "ES decorator that make a function throttled.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && NODE_ENV=development babel src --out-dir lib",
+    "prepublishOnly": "npm run build",
+    "test": "eslint src"
+  },
+  "repository": "1000ch/throttle-decorator",
+  "author": {
+    "name": "1000ch",
+    "email": "shogo.sensui@gmail.com",
+    "web": "https://github.com/1000ch"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/1000ch/throttle-decorator/issues"
+  },
+  "dependencies": {
+    "lodash.throttle": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.1.1"
+  }
+}
