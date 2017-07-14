@@ -2,6 +2,10 @@
 
 > ES decorator that make a function throttled.
 
+[![Build Status](https://travis-ci.org/1000ch/throttle-decorator.svg?branch=master)](https://travis-ci.org/1000ch/throttle-decorator)
+[![Dependency Status](https://david-dm.org/1000ch/throttle-decorator.svg)](https://david-dm.org/1000ch/throttle-decorator)
+[![devDependency Status](https://david-dm.org/1000ch/throttle-decorator/dev-status.svg)](https://david-dm.org/1000ch/throttle-decorator?type=dev)
+
 ## Install
 
 ```bash

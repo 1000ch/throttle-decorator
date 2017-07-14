@@ -1,11 +1,11 @@
 import throttle from 'lodash.throttle';
 
-export default function(wait, options = {}) {
-  return function(target, name, descriptor) {
+export default function (wait, options = {}) {
+  return function (target, name, descriptor) {
     return {
       configurable: true,
       enumerable: descriptor.enumerable,
-      get: function() {
+      get: function () {
         Object.defineProperty(this, name, {
           configurable: true,
           enumerable: descriptor.enumerable,
@@ -15,5 +15,5 @@ export default function(wait, options = {}) {
         return this[name];
       }
     };
-  }
+  };
 }
