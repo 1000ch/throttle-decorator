@@ -2,20 +2,24 @@
   "name": "throttle-decorator",
   "version": "0.1.0",
   "description": "ES decorator that make a function throttled.",
+  "license": "MIT",
+  "repository": "1000ch/throttle-decorator",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rm -rf lib",
     "build": "npm run clean && babel src --out-dir lib",
+    "prepublishOnly": "npm run build",
     "postinstall": "npm run build",
     "test": "xo src && ava"
   },
-  "repository": "1000ch/throttle-decorator",
   "author": {
     "name": "1000ch",
     "email": "shogo.sensui@gmail.com",
     "web": "https://github.com/1000ch"
   },
-  "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "engines": {
     "node": ">=8.0.0"
   },
