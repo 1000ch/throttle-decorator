@@ -1,6 +1,6 @@
 {
   "name": "throttle-decorator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ES decorator that make a function throttled.",
   "license": "MIT",
   "repository": "1000ch/throttle-decorator",
